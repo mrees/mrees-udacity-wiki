@@ -1,0 +1,20 @@
+{% extends "master.html" %}
+
+{% block contents %}
+<div style="align:right">
+{% if username %}
+<a href="/logout">Logout from {{ username }}</a>
+{% else %}
+<a href="/login">Login</a>
+{% endif %}
+
+<h2>Wiki page: {{ pagename }}</h2>
+<div>
+<form method="post" id="pageform">
+<textarea style="width:400px;height:300px" name="content">{{ contents }}</textarea>
+
+<input type="submit">
+
+</form>
+</div>
+{% endblock %}

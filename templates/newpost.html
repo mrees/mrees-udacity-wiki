@@ -1,0 +1,18 @@
+{% extends "master.html" %}
+
+{% block contents %}
+<form method="post" action="/newpost"> 
+<label>Title:
+<br>
+<input type="text" style="width:400px" name="subject" value="{{ subject }}">
+</label>
+<br>
+<label>Post contents:
+<br>
+<textarea style="width:400px;height:300px" name="content">{{ content }}</textarea>
+</label>
+<div style="color:red" id="errorMessage">{{ errorMessage }}</div>
+<br>
+<input type="submit" value="Submit post">
+</form>
+{% endblock %}

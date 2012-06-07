@@ -1,0 +1,16 @@
+{% extends "master.html" %}
+
+{% block contents %}
+<div style="align:right">
+{% if username %}
+<a style="text-decoration:none" href="/_edit{{ pagename }}">Edit</a>&nbsp;&nbsp;
+<a style="text-decoration:none" href="/logout">Logout from {{ username }}</a>
+{% else %}
+<a href="/login">Login</a>
+{% endif %}
+
+<h2>Wiki page: {{ pagename }}</h2>
+<div>
+{{ contents }}
+</div>
+{% endblock %}

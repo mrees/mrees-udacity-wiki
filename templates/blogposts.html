@@ -1,0 +1,30 @@
+{% extends "master.html" %}
+
+{% block contents %}
+<div><a href="/newpost">Create new blog post</a>
+&nbsp;&nbsp;
+<a href="/logout">Logout</a>
+&nbsp;&nbsp;
+<a href="/flush">Flush memcache</a>
+</div>
+<div><h3>Welcome, {{username}}</h3>
+<br><br>
+<h2>Previous Posts</h2>
+<hr></div>
+<div id="posts">
+{% for post in posts %}
+<div id="post">
+<h2><a style="text-decoration: none" href="/{{ post.key().id() }}">{{ post.subject }}</a></h2>
+<address>Created: {{ post.created }}<br>Last modified: {{ post.last_modified }}</address>
+<br>
+<div id="content">
+{{ post.content }}
+</div>
+<br>
+{% if not loop.last %}<hr>{% endif %}
+</div>
+{% endfor %}
+</div>
+<br>
+<div>Queried {{all_posts_time}} seconds ago</div>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "master.html" %}
+
+{% block contents %}
+<div id="post">
+<h2><a style="text-decoration:none" href="/{{ id }}">{{ subject }}</a></h2>
+<address>Created: {{ created }}<br>Last modified: {{ last_modified }}</address>
+<br>
+<div id="content">
+{{ content }}
+</div>
+<br>
+<div>Queried {{ cache_time }} seconds ago</div>
+</div>
+<br><br>
+{% endblock %}

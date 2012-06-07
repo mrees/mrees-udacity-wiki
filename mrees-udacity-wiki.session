@@ -1,0 +1,13 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="5">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="248" startPos="31" endPos="31" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Users\Michael\Documents\My Dropbox\repository\udacity\mrees-udacity-wiki\app.yaml" />
+            <File firstVisibleLine="191" xOffset="0" scrollWidth="814" startPos="7132" endPos="7132" selMode="0" lang="Python" encoding="-1" filename="C:\Users\Michael\Documents\My Dropbox\repository\udacity\mrees-udacity-wiki\main.py" />
+            <File firstVisibleLine="159" xOffset="0" scrollWidth="776" startPos="8940" endPos="8940" selMode="0" lang="Python" encoding="-1" filename="C:\Users\Michael\Documents\My Dropbox\repository\udacity\mrees-udacity-wiki\check.py" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="736" startPos="309" endPos="309" selMode="0" lang="HTML" encoding="-1" filename="C:\Users\Michael\Documents\My Dropbox\repository\udacity\mrees-udacity-wiki\templates\master.html" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="752" startPos="472" endPos="472" selMode="0" lang="HTML" encoding="-1" filename="C:\Users\Michael\Documents\My Dropbox\repository\udacity\mrees-udacity-wiki\templates\wikipage.html" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="418" startPos="356" endPos="356" selMode="0" lang="HTML" encoding="-1" filename="C:\Users\Michael\Documents\My Dropbox\repository\udacity\mrees-udacity-wiki\templates\editpage.html" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>
